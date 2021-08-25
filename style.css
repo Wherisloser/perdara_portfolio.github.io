@@ -1,0 +1,141 @@
+body{
+    background-color: tomato;
+    color: black;
+}
+.bg{
+    position: absolute;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.hid{
+    visibility: hidden;
+}
+.container{
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.Thick_text{
+    color: rgb(197, 146, 5);
+}
+.bio-img{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("/Img/bg1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.Social ul{
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.Social ul li{
+    display: inline;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.Social ul li+li:before{
+    padding: 10px;
+    color: white;
+    content: "/\00a0";
+}
+img.Me{
+    position: relative;
+    display: block;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.7);
+}
+h1.Name{
+    text-align: center;
+    margin-top: 30px;
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+}
+span.Position{
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 35;
+    font-size: 20px;
+    color: rgb(195, 174, 77);
+}
+.contact{
+    color: white;
+    text-align: center;
+}
+.about{
+    margin-top: 50px;
+}
+p.about_text{
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+.col{
+    text-align: center;
+}
+.GD{
+    width: 150px;
+    height: 150px;
+}
+.UI{
+    width: 150px;
+    height: 150px;
+}
+.WD{
+    width: 150px;
+    height: 150px;
+}
+.skill{
+    margin-top: 80px;
+}
+h2{
+    text-align: center;
+    text-transform: uppercase;
+}
+button{
+    border-radius: 10%;
+    color: white;
+}
+h3{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+h3.Can{
+    color: rgb(24, 77, 121);
+    text-align: center;
+
+}
+h4.sk{
+    color: rgb(24, 77, 121);
+}
+.work_Text{
+    margin-top: 20px;
+}
+.work_Text2{
+    margin-top: 30px;
+    text-align: right;
+}
+hr{
+    height: 2px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    background-color: rgb(195, 174, 77);
+}
+hr.hr2{
+    margin-top: 30px;
+}
+.footer{
+    text-align: center;
+    padding: 80px 0 20px 0;
+    color: rgba(51, 51, 51, 0.5);
+}
